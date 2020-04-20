@@ -1,0 +1,21 @@
+<mat-card>
+  <mat-card-title>Update Music</mat-card-title>
+  <form>
+    <mat-form-field>
+      <input matInput placeholder="Name" name="name"
+          [(ngModel)]="music.name">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Price (€)" name="price"
+         [(ngModel)]="music.price">
+    </mat-form-field>
+  </form>
+  <button mat-raised-button (click)="updateMusic()" color="primary">
+    Update
+  </button>  
+  <button mat-raised-button (click)="cancel()">
+    Cancel
+  </button>
+</mat-card>
+
+

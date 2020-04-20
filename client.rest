@@ -1,0 +1,31 @@
+### acessando via GET
+GET http://localhost:3000/products
+###
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+  "name": "45B Electronics",
+  "price": 15.89
+}
+###
+PUT http://localhost:3000/products
+Content-Type: application/json
+
+{
+  "id": "1",
+  "name": "2B Electronics",
+  "price": 5.89
+}
+###
+DELETE http://localhost:3000/products/G4vgsPH
+###
+PATCH  http://localhost:3000/products
+Content-Type: application/json
+
+{
+  "id": "1",
+  "name": "2B Electronics",
+  "price": 5.89
+}
+###

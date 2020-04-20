@@ -1,0 +1,22 @@
+<mat-card>
+  <mat-card-title>Delete Music</mat-card-title>
+  <form>
+    <mat-form-field>
+      <input matInput placeholder="Name" name="name" disabled
+          [value]="music.name">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Price (€)" name="price" disabled
+         [value]="music.price">
+    </mat-form-field>
+  </form>
+  <button mat-raised-button (click)="deleteMusic()" color="warn">
+    Delete
+  </button>  
+  <button mat-raised-button (click)="cancel()">
+    Cancel
+  </button>
+</mat-card>
+
+
+

@@ -1,0 +1,49 @@
+{
+  "musics": [
+    {
+      "id": "1",
+      "name": "2B Electronics",
+      "price": 5.89
+    },
+    {
+      "id": "2",
+      "name": "2gig Technologies Inc.",
+      "price": 28.87
+    },
+    {
+      "id": "3",
+      "name": "3e Technologies",
+      "price": 15.76
+    },
+    {
+      "id": "4",
+      "name": "A-1 Components",
+      "price": 8.99
+    },
+    {
+      "id": "5",
+      "name": "ACT - Advanced Control Technologies",
+      "price": 10.3
+    },
+    {
+      "id": "6",
+      "name": "ADOX, Inc.",
+      "price": 54.98
+    },
+    {
+      "id": "7",
+      "name": "AEON Labs",
+      "price": 43.89
+    },
+    {
+      "id": "8",
+      "name": "ASSA ABLOY",
+      "price": 1035.9
+    },
+    {
+      "id": "9",
+      "name": "AT&T ",
+      "price": 100.34
+    }
+  ]
+}
